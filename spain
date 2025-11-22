@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente IA para Autónomos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #1a73e8; color: white; padding: 40px 20px; text-align: center; }
+    section { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    h1, h2 { margin: 0 0 20px; }
+    p { line-height: 1.6; }
+    .cta-btn { display: inline-block; padding: 14px 24px; background: #1a73e8; color: white; text-decoration: none; border-radius: 8px; font-size: 18px; margin-top: 20px; }
+    .benefits { display: flex; flex-wrap: wrap; gap: 20px; }
+    .benefit-card { flex: 1; min-width: 250px; background: #fafafa; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tu Asistente de IA en 48 horas</h1>
+    <p>Atiende clientes, responde preguntas y capta leads mientras trabajas.</p>
+    <a href="#reservar" class="cta-btn">Reservar una demostración</a>
+  </header>
+
+  <section>
+    <h2>¿Qué es este servicio?</h2>
+    <p>Creamos un asistente personalizado de inteligencia artificial para tu negocio. Responde automáticamente a consultas frecuentes, capta datos de clientes potenciales y gestiona reservas, todo sin que tengas que estar pendiente del móvil o el ordenador.</p>
+  </section>
+
+  <section>
+    <h2>Beneficios</h2>
+    <div class="benefits">
+      <div class="benefit-card">
+        <h3>Ahorra tiempo</h3>
+        <p>Delegas respuestas repetitivas y tareas administrativas en un asistente que trabaja 24/7.</p>
+      </div>
+      <div class="benefit-card">
+        <h3>Más clientes</h3>
+        <p>Captura leads incluso cuando estás ocupado, aumentando tus oportunidades de venta.</p>
+      </div>
+      <div class="benefit-card">
+        <h3>Fácil de usar</h3>
+        <p>No necesitas conocimientos técnicos. Nosotros lo configuramos todo por ti.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Precios</h2>
+    <p><strong>97€</strong> por la creación del asistente.<br /><strong>19€/mes</strong> por mantenimiento y actualizaciones.</p>
+  </section>
+
+  <section id="reservar">
+    <h2>Reserva tu demostración</h2>
+    <p>Descubre cómo un asistente IA puede transformar tu negocio. Reserva una sesión de 15 minutos.</p>
+    <a href="https://calendly.com/" class="cta-btn">Reservar ahora</a>
+  </section>
+</body>
+</html>
